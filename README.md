@@ -27,7 +27,7 @@ local machine. You can test things out with:
     # salt \* test.version
 
 And you should see that the installed version is `2019.2.0`. If you're too
-quick, the minion may not return, but a secont `salt \* test.version` should
+quick, the minion may not return, but a second `salt \* test.version` should
 get a response.
 
 ## Running With Changes
