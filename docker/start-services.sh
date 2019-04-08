@@ -4,7 +4,8 @@ salt-minion -d
 echo "Starting master"
 salt-master -d
 
-while salt-key -Ay | grep 'does not match' ; do
+until salt-key -l accepted | grep 'kevin' >/dev/null ; do
+    salt-key -Ay >/dev/null
     echo "Waiting for key..."
     sleep 1
 done
