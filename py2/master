@@ -1,0 +1,5 @@
+master_id: salt
+file_roots:
+  base:
+    - /srv/salt
+    - /srv/examples

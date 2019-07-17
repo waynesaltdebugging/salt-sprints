@@ -1,0 +1,4 @@
+sample:
+  host: localhost
+  user: stuart
+  passwd: banana
